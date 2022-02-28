@@ -65,9 +65,14 @@ the backend api urls: http://localhost:8000/api
 ### Frontend
 
 ```bash
-
+# node version 16.13.0
 # enter the project directory
 cd vue-element-admin
+
+npm install -g @vue/cli 
+
+# install Axios to handle the communication between the client and Django REST server:
+npm install axios
 
 # install dependency
 npm install
